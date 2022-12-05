@@ -14,4 +14,5 @@ Get-WindowsAutopilotInfo -Online
 
 # Sleep and Reboot
 Write-Host "Rebooting in 10 Minutes..."
-Restart-Computer -Delay 600
+Sleep 600
+Restart-Computer
