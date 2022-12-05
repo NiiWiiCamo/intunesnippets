@@ -11,3 +11,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
 
 # Run online registration
 Get-WindowsAutopilotInfo -Online
+
+# Sleep and Reboot
+Write-Host "Rebooting in 10 Minutes..."
+Restart-Computer -Delay 600
